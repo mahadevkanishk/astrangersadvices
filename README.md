@@ -1,2 +1,3 @@
-# astrangersadvices
-a social platform made by students for the students
+# A stranger's Advice
+
+A social platform made by students for the students
