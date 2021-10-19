@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import CounselChat from "../Components/CounselChat";
 import { selectUser } from "../features/userSlice";
-import Login from "../Pages/Login";
 import { auth } from "../firebase";
 import { login, logout } from "../features/userSlice";
 import "../CSS/chatrooms.css";
@@ -31,13 +30,7 @@ function ChatRooms() {
 	return (
 		//Bem naming convention
 		<div className='chatrooms'>
-			{user ? (
-				<>
-					<CounselChat />
-				</>
-			) : (
-				<Login />
-			)}
+			<CounselChat />
 		</div>
 	);
 }

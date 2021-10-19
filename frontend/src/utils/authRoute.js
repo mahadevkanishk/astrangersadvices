@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
-import { useSelector } from "react-redux";
-import { selectUser } from "../features/userSlice";
+import { AuthContext } from "../Context/auth";
 
 export default function AuthRoute({ component: Component, ...rest }) {
-	const user = useSelector(selectUser);
-
+	const { user } = useContext(AuthContext);
+	console.log(user);
 	return (
 		<Route
 			{...rest}

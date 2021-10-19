@@ -1,22 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "human.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.10"
-  }
-=======
 	"name": "backend",
 	"version": "1.0.0",
 	"description": "",
@@ -37,5 +19,4 @@
 		"mongoose": "^5.13.2",
 		"nodemon": "^2.0.9"
 	}
->>>>>>> 4e25ebca7d0ea39ecdd29c1cdddd1c93313e2c18
 }

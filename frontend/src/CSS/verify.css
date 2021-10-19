@@ -1,22 +1,25 @@
+canvas {
+    position: absolute;
+  }
+
 .verify_div{
     border: 0px !important;
     box-shadow: 0px !important;
-}
-
-.verify_div h1{
-    box-shadow: none;
-    border: none;
-    padding-top: 200px;
-}
-
-.verify_div p{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .verify_div div{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: fit-content;
 }
+
+.verify_div video{
+    padding-top: 0px;
+}
+
+
