@@ -21,7 +21,7 @@ export default function Login() {
 	const [loginUser, { loading }] = useMutation(LOGIN_USER, {
 		update(_, { data: { login: userData } }) {
 			context.login(userData);
-			history.push("/chatroom");
+			history.push("/");
 		},
 		onError(err) {
 			setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -36,9 +36,7 @@ export default function Login() {
 	return (
 		<div className='login-container'>
 			<div className='login-left'>
-				<div className='image-box'>
-					<img className='login-image' src={TravelLogin} alt='travel' />
-				</div>
+				<div className='image-box'>Just Talk</div>
 			</div>
 			<div className='login-right'>
 				<div className='login-wrapper'>

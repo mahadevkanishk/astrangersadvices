@@ -6,13 +6,14 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "../CSS/counselPage.css";
+import ChatBox from "../Components/ChatBox";
 
 export default function CounselPage() {
 	return (
 		<div className='counselPage'>
 			<div className='counselPage-top'>
 				<div className='tile-contents-wrapper'>
-					<Link to='/counselroom' className='tile-counsel-link'>
+					<Link to='/counsel' className='tile-counsel-link'>
 						<div className='tile-contents'>
 							Consult Our Counsellor <br /> (Free Service)
 						</div>
@@ -60,6 +61,7 @@ export default function CounselPage() {
 							</span>
 						</div>
 					</div>
+					<ChatBox />
 				</div>
 			</div>
 		</div>

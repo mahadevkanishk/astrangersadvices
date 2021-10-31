@@ -24,8 +24,6 @@ export default function Map() {
 	});
 
 	const { data: { getPins: pins } = {} } = useQuery(GET_PINS);
-	console.log(newPins);
-	console.log(pins);
 	useEffect(() => {
 		pins && setNewPins(pins);
 	}, [pins]);

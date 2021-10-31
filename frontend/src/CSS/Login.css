@@ -56,6 +56,11 @@
 	cursor: pointer;
 }
 
+.image-box {
+	font-family: "Cinzel";
+	font-size: 48px;
+}
+
 .input-field {
 	padding: 10px 15px;
 	display: flex;

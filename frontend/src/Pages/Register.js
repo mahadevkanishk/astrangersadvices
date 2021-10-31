@@ -38,9 +38,7 @@ export default function Register() {
 	return (
 		<div className='register-container'>
 			<div className='register-left'>
-				<div className='image-box'>
-					<img className='register-image' src={TravelLogin} alt='Travel' />
-				</div>
+				<div className='image-box'>Just Talk</div>
 			</div>
 			<div className='register-right'>
 				<div className='register-wrapper'>
